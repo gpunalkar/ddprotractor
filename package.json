@@ -1,0 +1,28 @@
+{
+  "name": "ddprotractor",
+  "version": "1.0.0",
+  "description": "learn protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ganesh Punalkar <ganesh.punalkar@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpunalkar/ddprotractor.git"
+  },
+  "keywords": [
+    "data",
+    "driven",
+    "protractor"
+  ],
+  "bugs": {
+    "url": "https://github.com/gpunalkar/ddprotractor/issues"
+  },
+  "homepage": "https://github.com/gpunalkar/ddprotractor#readme"
+}
