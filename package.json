@@ -4,12 +4,15 @@
   "description": "learn protractor",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Ganesh Punalkar <ganesh.punalkar@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "protractor": "^5.2.0"
+    "protractor": "^5.2.0",
+    "snyk": "^1.120.0"
   },
   "devDependencies": {},
   "repository": {
@@ -24,5 +27,6 @@
   "bugs": {
     "url": "https://github.com/gpunalkar/ddprotractor/issues"
   },
-  "homepage": "https://github.com/gpunalkar/ddprotractor#readme"
+  "homepage": "https://github.com/gpunalkar/ddprotractor#readme",
+  "snyk": true
 }
