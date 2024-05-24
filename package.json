@@ -9,7 +9,7 @@
   "author": "Ganesh Punalkar <ganesh.punalkar@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "protractor": "^5.2.0"
+    "protractor": "^7.0.0"
   },
   "devDependencies": {},
   "repository": {
